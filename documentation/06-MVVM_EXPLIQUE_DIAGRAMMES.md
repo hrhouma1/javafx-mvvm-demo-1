@@ -511,7 +511,7 @@ graph TB
     style O fill:#e3f2fd
     style L fill:#e3f2fd
     style I fill:#e3f2fd
-    style D fill=#e3f2fd
+    style D fill:#e3f2fd
 ```
 
 ### Avantages du pattern
