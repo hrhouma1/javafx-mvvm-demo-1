@@ -1,0 +1,150 @@
+/* ============================================
+   STYLES PROFESSIONNELS POUR DEMO MVVM
+   ============================================ */
+
+/* Conteneur principal */
+.root-container {
+    -fx-background-color: linear-gradient(to bottom, #f5f7fa 0%, #c3cfe2 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+/* Titre principal */
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+/* Sous-titres */
+.subtitle-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #7f8c8d;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-letter-spacing: 1px;
+}
+
+/* Affichage du compteur */
+.counter-label {
+    -fx-font-size: 72px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3498db;
+    -fx-font-family: "Segoe UI", "Arial", monospace;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.3), 5, 0, 0, 2);
+}
+
+/* Section d'affichage */
+.display-section {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-padding: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 15, 0, 0, 5);
+}
+
+/* Section des boutons */
+.button-section {
+    -fx-padding: 10px;
+}
+
+/* Boutons principaux (Incrémenter/Décrémenter) */
+.primary-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-padding: 15px 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 3);
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+/* Bouton Incrémenter */
+.increment-button {
+    -fx-background-color: linear-gradient(to bottom, #27ae60 0%, #229954 100%);
+}
+
+.increment-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2ecc71 0%, #27ae60 100%);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.increment-button:pressed {
+    -fx-background-color: #1e8449;
+    -fx-translate-y: 2px;
+}
+
+.increment-button:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-opacity: 0.6;
+    -fx-cursor: default;
+}
+
+/* Bouton Décrémenter */
+.decrement-button {
+    -fx-background-color: linear-gradient(to bottom, #e74c3c 0%, #c0392b 100%);
+}
+
+.decrement-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ec7063 0%, #e74c3c 100%);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.decrement-button:pressed {
+    -fx-background-color: #a93226;
+    -fx-translate-y: 2px;
+}
+
+.decrement-button:disabled {
+    -fx-background-color: #95a5a6;
+    -fx-opacity: 0.6;
+    -fx-cursor: default;
+}
+
+/* Bouton secondaire (Reset) */
+.secondary-button {
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(to bottom, #34495e 0%, #2c3e50 100%);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-padding: 12px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 6, 0, 0, 2);
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.secondary-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #415b76 0%, #34495e 100%);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.secondary-button:pressed {
+    -fx-background-color: #1c2833;
+    -fx-translate-y: 1px;
+}
+
+/* Section status */
+.status-section {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+}
+
+/* Label de status */
+.status-label {
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+    -fx-text-fill: #34495e;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+/* Séparateurs */
+.separator .line {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-border-width: 1px 0 0 0;
+}
+
