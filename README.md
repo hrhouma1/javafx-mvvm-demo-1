@@ -15,7 +15,20 @@ mvn javafx:run
 run.bat
 ```
 
-## Documentation complète
+## Cours JavaFX complet (NOUVEAU)
+
+Si vous débutez avec JavaFX ou voulez comprendre les bases :
+
+**[Cours JavaFX de Zéro à Expert](documentation0-cours-javafx/README.md)**
+
+Ce cours vous apprend :
+- Les bases de JavaFX (Stage, Scene, Node)
+- FXML expliqué en détail
+- Properties et Binding
+- Architecture professionnelle d'applications
+- 8 exercices pratiques progressifs
+
+## Documentation du projet MVVM
 
 Toute la documentation pédagogique se trouve dans le dossier `documentation/` :
 
