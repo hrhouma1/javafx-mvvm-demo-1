@@ -679,7 +679,7 @@ graph TB
     C4 --> End([MVVM complet])
     
     style Start fill:#ffebee
-    style End fill=#e8f5e9
+    style End fill:#e8f5e9
 ```
 
 ---
